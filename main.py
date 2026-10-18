@@ -87,7 +87,9 @@ def get_meeting_members(meeting_id: int):
                 'discord_id' : '987654321'
             }
         ] 
-    }from fastapi import FastAPI
+    }
+
+from fastapi import FastAPI
 
 app = FastAPI()
 
