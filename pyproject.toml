@@ -3,5 +3,6 @@ name = "web-study"
 version = "0.1.0"
 requires-python = ">=3.13"
 dependencies = [
-    "fastapi[standard]>=0.143.0",
+    "fastapi[standard]>=0.143.1",
+    "requests>=2.34.2",
 ]
